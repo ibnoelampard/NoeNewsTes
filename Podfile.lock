@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.7.1)
+  - CodableFirebase (0.2.1)
+  - IQKeyboardManagerSwift (6.5.11)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SDWebImage (5.15.8):
+    - SDWebImage/Core (= 5.15.8)
+  - SDWebImage/Core (5.15.8)
+
+DEPENDENCIES:
+  - CodableFirebase
+  - IQKeyboardManagerSwift
+  - Moya
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CodableFirebase
+    - IQKeyboardManagerSwift
+    - Moya
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  CodableFirebase: 0bf201991eeec35eb9fcd987d271ea463cf34a80
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
+
+PODFILE CHECKSUM: 7a114ae5086da5e797a59b02daba738a14b7597c
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,6 @@
+framework module Pods_NoeNewsTestTests {
+  umbrella header "Pods-NoeNewsTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

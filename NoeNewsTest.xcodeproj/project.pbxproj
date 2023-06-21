@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2E4885E8E9AADA63DDF19F /* Pods_NoeNewsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC11C7A827D032DD535AAA9 /* Pods_NoeNewsTest.framework */; };
 		9FC8CF1F2A43516800BC7BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8CF1E2A43516800BC7BBD /* AppDelegate.swift */; };
 		9FC8CF212A43516800BC7BBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8CF202A43516800BC7BBD /* SceneDelegate.swift */; };
 		9FC8CF232A43516800BC7BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8CF222A43516800BC7BBD /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		9FC8CF362A43516A00BC7BBD /* NoeNewsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8CF352A43516A00BC7BBD /* NoeNewsTestTests.swift */; };
 		9FC8CF402A43516A00BC7BBD /* NoeNewsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8CF3F2A43516A00BC7BBD /* NoeNewsTestUITests.swift */; };
 		9FC8CF422A43516A00BC7BBD /* NoeNewsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8CF412A43516A00BC7BBD /* NoeNewsTestUITestsLaunchTests.swift */; };
+		EE1490C21FAE9AB514B0C3C3 /* Pods_NoeNewsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057A1FEAA4C31089F4BD2094 /* Pods_NoeNewsTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057A1FEAA4C31089F4BD2094 /* Pods_NoeNewsTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoeNewsTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEB851802128A236CA0367F /* Pods-NoeNewsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoeNewsTestTests.release.xcconfig"; path = "Target Support Files/Pods-NoeNewsTestTests/Pods-NoeNewsTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AC11C7A827D032DD535AAA9 /* Pods_NoeNewsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoeNewsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC8CF1B2A43516800BC7BBD /* NoeNewsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoeNewsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC8CF1E2A43516800BC7BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FC8CF202A43516800BC7BBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		9FC8CF3B2A43516A00BC7BBD /* NoeNewsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoeNewsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC8CF3F2A43516A00BC7BBD /* NoeNewsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoeNewsTestUITests.swift; sourceTree = "<group>"; };
 		9FC8CF412A43516A00BC7BBD /* NoeNewsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoeNewsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACA571AEE007E4B7BDB892F7 /* Pods-NoeNewsTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoeNewsTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NoeNewsTestTests/Pods-NoeNewsTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C601B6F0258D42C264CBDE97 /* Pods-NoeNewsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoeNewsTest.release.xcconfig"; path = "Target Support Files/Pods-NoeNewsTest/Pods-NoeNewsTest.release.xcconfig"; sourceTree = "<group>"; };
+		EFC3CED1FC0C01AF47533835 /* Pods-NoeNewsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoeNewsTest.debug.xcconfig"; path = "Target Support Files/Pods-NoeNewsTest/Pods-NoeNewsTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E2E4885E8E9AADA63DDF19F /* Pods_NoeNewsTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1490C21FAE9AB514B0C3C3 /* Pods_NoeNewsTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3202993DD7016EE62227D4D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFC3CED1FC0C01AF47533835 /* Pods-NoeNewsTest.debug.xcconfig */,
+				C601B6F0258D42C264CBDE97 /* Pods-NoeNewsTest.release.xcconfig */,
+				ACA571AEE007E4B7BDB892F7 /* Pods-NoeNewsTestTests.debug.xcconfig */,
+				5BEB851802128A236CA0367F /* Pods-NoeNewsTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9FC8CF122A43516800BC7BBD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				9FC8CF342A43516A00BC7BBD /* NoeNewsTestTests */,
 				9FC8CF3E2A43516A00BC7BBD /* NoeNewsTestUITests */,
 				9FC8CF1C2A43516800BC7BBD /* Products */,
+				3202993DD7016EE62227D4D9 /* Pods */,
+				B51E5F81B349311602F9045B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +151,15 @@
 			path = NoeNewsTestUITests;
 			sourceTree = "<group>";
 		};
+		B51E5F81B349311602F9045B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AC11C7A827D032DD535AAA9 /* Pods_NoeNewsTest.framework */,
+				057A1FEAA4C31089F4BD2094 /* Pods_NoeNewsTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC8CF452A43516A00BC7BBD /* Build configuration list for PBXNativeTarget "NoeNewsTest" */;
 			buildPhases = (
+				FBB1B3B5CCA93B97C007FD74 /* [CP] Check Pods Manifest.lock */,
 				9FC8CF172A43516800BC7BBD /* Sources */,
 				9FC8CF182A43516800BC7BBD /* Frameworks */,
 				9FC8CF192A43516800BC7BBD /* Resources */,
+				4A0662158D61E4941281864F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FC8CF482A43516A00BC7BBD /* Build configuration list for PBXNativeTarget "NoeNewsTestTests" */;
 			buildPhases = (
+				FB6AB10C4666F535B28E2299 /* [CP] Check Pods Manifest.lock */,
 				9FC8CF2D2A43516A00BC7BBD /* Sources */,
 				9FC8CF2E2A43516A00BC7BBD /* Frameworks */,
 				9FC8CF2F2A43516A00BC7BBD /* Resources */,
+				492313698964AF888C680C4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +244,7 @@
 				};
 			};
 			buildConfigurationList = 9FC8CF162A43516800BC7BBD /* Build configuration list for PBXProject "NoeNewsTest" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +289,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		492313698964AF888C680C4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoeNewsTestTests/Pods-NoeNewsTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoeNewsTestTests/Pods-NoeNewsTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoeNewsTestTests/Pods-NoeNewsTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A0662158D61E4941281864F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoeNewsTest/Pods-NoeNewsTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoeNewsTest/Pods-NoeNewsTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoeNewsTest/Pods-NoeNewsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6AB10C4666F535B28E2299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoeNewsTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB1B3B5CCA93B97C007FD74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoeNewsTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9FC8CF172A43516800BC7BBD /* Sources */ = {
@@ -432,6 +550,7 @@
 		};
 		9FC8CF462A43516A00BC7BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC3CED1FC0C01AF47533835 /* Pods-NoeNewsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +578,7 @@
 		};
 		9FC8CF472A43516A00BC7BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C601B6F0258D42C264CBDE97 /* Pods-NoeNewsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +606,7 @@
 		};
 		9FC8CF492A43516A00BC7BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA571AEE007E4B7BDB892F7 /* Pods-NoeNewsTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +626,7 @@
 		};
 		9FC8CF4A2A43516A00BC7BBD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEB851802128A236CA0367F /* Pods-NoeNewsTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
