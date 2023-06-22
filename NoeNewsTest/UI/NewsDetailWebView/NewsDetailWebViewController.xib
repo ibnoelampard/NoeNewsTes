@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsDetailWebViewController" customModule="NoeNewsTest" customModuleProvider="target">
+            <connections>
+                <outlet property="loadingView" destination="O9B-Oa-UjB" id="9he-N4-RGX"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webview" destination="8Jf-Pz-6gc" id="Qhm-QB-P5T"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Jf-Pz-6gc">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O9B-Oa-UjB">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="cqa-gX-TAJ">
+                            <rect key="frame" x="186.66666666666666" y="369.66666666666669" width="20" height="20"/>
+                            <color key="color" red="0.16862745100000001" green="0.5568627451" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="cqa-gX-TAJ" firstAttribute="centerY" secondItem="O9B-Oa-UjB" secondAttribute="centerY" id="RS2-2o-CFk"/>
+                        <constraint firstItem="cqa-gX-TAJ" firstAttribute="centerX" secondItem="O9B-Oa-UjB" secondAttribute="centerX" id="rF4-NS-qr8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="8Jf-Pz-6gc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="0wD-TO-6zw"/>
+                <constraint firstItem="O9B-Oa-UjB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="1Zy-1u-kLv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="O9B-Oa-UjB" secondAttribute="bottom" id="2yu-lc-y1h"/>
+                <constraint firstItem="O9B-Oa-UjB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="G1i-fW-Xhl"/>
+                <constraint firstItem="8Jf-Pz-6gc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="REl-6g-5ht"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="O9B-Oa-UjB" secondAttribute="trailing" id="XlP-9U-1cY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8Jf-Pz-6gc" secondAttribute="trailing" id="ui2-xd-BBa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="8Jf-Pz-6gc" secondAttribute="bottom" id="zbQ-wU-H4h"/>
+            </constraints>
+            <point key="canvasLocation" x="-34.351145038167935" y="19.718309859154932"/>
+        </view>
+    </objects>
+</document>

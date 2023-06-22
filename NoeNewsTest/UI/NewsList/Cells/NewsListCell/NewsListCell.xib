@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="209" id="KGk-i7-Jjw" customClass="NewsListCell" customModule="NoeNewsTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="209"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="209"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BcK-hk-TgS">
+                        <rect key="frame" x="16" y="16" width="88" height="88"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="BcK-hk-TgS" secondAttribute="height" id="1MU-60-stc"/>
+                            <constraint firstAttribute="width" constant="88" id="KCj-oz-qYR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irl-DQ-ZhX">
+                        <rect key="frame" x="120" y="16" width="244" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="749" text="Bud Light has been widely criticised for its response to a boycott from some conservative Americans." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me9-hO-uBE">
+                        <rect key="frame" x="120" y="37" width="244" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TLV-lf-23S" userLabel="line">
+                        <rect key="frame" x="16" y="208" width="348" height="1"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="bdr-0g-Os1"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Irl-DQ-ZhX" firstAttribute="leading" secondItem="BcK-hk-TgS" secondAttribute="trailing" constant="16" id="23F-2J-xKX"/>
+                    <constraint firstItem="BcK-hk-TgS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="7Gb-WS-OmF"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="BcK-hk-TgS" secondAttribute="bottom" constant="16" id="Bib-1J-ZPI"/>
+                    <constraint firstItem="Me9-hO-uBE" firstAttribute="leading" secondItem="BcK-hk-TgS" secondAttribute="trailing" constant="16" id="G9u-Df-Nhj"/>
+                    <constraint firstItem="BcK-hk-TgS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Uhd-Z0-4SQ"/>
+                    <constraint firstAttribute="bottom" secondItem="TLV-lf-23S" secondAttribute="bottom" id="Zbo-RO-OeP"/>
+                    <constraint firstItem="TLV-lf-23S" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Zt8-7M-rsj"/>
+                    <constraint firstAttribute="trailing" secondItem="TLV-lf-23S" secondAttribute="trailing" constant="16" id="eLe-tG-hEj"/>
+                    <constraint firstAttribute="trailing" secondItem="Irl-DQ-ZhX" secondAttribute="trailing" constant="16" id="lVr-ab-ixq"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Me9-hO-uBE" secondAttribute="bottom" constant="16" id="may-v3-ypx"/>
+                    <constraint firstItem="Me9-hO-uBE" firstAttribute="top" secondItem="Irl-DQ-ZhX" secondAttribute="bottom" constant="4" id="nEc-Jl-XUv"/>
+                    <constraint firstItem="Irl-DQ-ZhX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="u6X-l9-ZEz"/>
+                    <constraint firstAttribute="trailing" secondItem="Me9-hO-uBE" secondAttribute="trailing" constant="16" id="x8I-h4-nE9"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="ivCover" destination="BcK-hk-TgS" id="Wil-sb-EBW"/>
+                <outlet property="lblDescription" destination="Me9-hO-uBE" id="gJn-a0-dCI"/>
+                <outlet property="lblTitle" destination="Irl-DQ-ZhX" id="mvo-xS-Kn9"/>
+            </connections>
+            <point key="canvasLocation" x="10.687022900763358" y="77.816901408450704"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -6,6 +6,7 @@ target 'NoeNewsTest' do
   pod 'Moya'
   pod 'CodableFirebase'
   pod 'IQKeyboardManagerSwift'
+  pod 'SkeletonView'
   pod 'SDWebImage', :inhibit_warnings => true
 end
 
@@ -15,5 +16,6 @@ target 'NoeNewsTestTests' do
   pod 'Moya'
   pod 'CodableFirebase'
   pod 'IQKeyboardManagerSwift'
+  pod 'SkeletonView'
   pod 'SDWebImage', :inhibit_warnings => true
 end
